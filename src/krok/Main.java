@@ -10,7 +10,7 @@ public class Main {
         // Drive f = new Vinyl(); - консоль выведет "Плеер не может проигрывать устройство Виниловая пластинка" ну и все в этом духе))
 
         f.song = s;
-        Player p = new Player();
+        Apparatus p = new Player();
         p.Play(f);
     }
 }

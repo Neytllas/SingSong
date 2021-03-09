@@ -1,5 +1,5 @@
 package krok;
-
+// класс родитель аппаратов воспроизведения
 public class Apparatus
 {
     public String getName()

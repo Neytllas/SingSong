@@ -1,5 +1,5 @@
 package krok;
-
+// класс создания песни
 public class Song
 {
     public String Title;
