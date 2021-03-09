@@ -4,8 +4,13 @@ public class Main {
 
     public static void main(String[] args)
     {
-	    Spinner spinner = new Spinner("OPOPOPOP", "Воспроизводится на виниле");
-	    Player player = new Player("Вот эта песня", "Воспроизводится с флешки");
-	    CD cd = new CD("И это песня","Воспроизводится на диске");
+        Song s = new Song ("Название ", "Альбом");
+        Drive f = new Flash();
+
+        // Drive f = new Vinyl(); - консоль выведет "Плеер не может проигрывать устройство Виниловая пластинка" ну и все в этом духе))
+
+        f.song = s;
+        Player p = new Player();
+        p.Play(f);
     }
 }
